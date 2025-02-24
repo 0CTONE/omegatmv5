@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Website
+	</title>
+
+	<meta name="description" content="OmegaTM Fan Website">
+	<meta name="keywords" content="Discord, Klar, Coding">
+	<meta name="author" content="Developer">
+
+	<meta property="og:title" content="About OmegaTM ~ </Developer>">
+	<meta property="og:theme-color" content="#FF0000">
+	<meta property="og:description" content="Main Discord: 1310328922574946396 | @justomegga">
+	<meta property="og:image" content="https://files.catbox.moe/b327yr.png">
+	<meta property="og:url" content="https://omegatm.wtf">
+
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/lib/tailwind.css">
+	<link rel="stylesheet" href="assets/css/lib/animate.css">
+	<link rel="stylesheet" href="assets/css/lib/tippy.all.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+	<div id="landing-page" class="flex items-center justify-center">
+		<div class="cursor-pointer flex items-center justify-center text-5xl text-glow font-medium">
+			<span class="mr-4 text-5xl pl-4">&lt;/</span>
+			<span class="mx-4 text-center text-5xl">
+				CLICK ANYWHERE<br>TO ENTER
+			</span>
+		</div>
+		<span class="ml-4 text-5xl pr-4">&gt;</span>
+	</div>
+
+	<div id="main-content" class="hidden">
+		<video id="background-video" playsinline="playsinline" autoplay="autoplay" loop="loop">
+			<source id="background-vid" src="" type="video/mp4">
+		</video>
+		<div class="flex flex-col items-center justify-start h-screen">
+			<div id="main-box" class="profile-box flex flex-col items-center relative rounded-lg pb-3">
+				<span id="mute-button" class="video-icon top-4 left-4 fas fa-volume-up glow-white" data-tooltip="Mute"></span>
+				<span id="pause-button" class="video-icon top-4 right-4 pl-2 fas fa-pause glow-white" data-tooltip="Pause"></span>
+				<div class="top-1/2 transform -translate-y-1/2">
+					<div class="profile-pic-container glow-white w-40 h-40 rounded-full overflow-hidden">
+						<img src="assets/img/pfp.webp" alt="Profile Picture" class="w-full h-full object-cover" draggable="false">
+					</div>
+				</div>
+				<div class="text-container">
+					<div class="flex flex-col items-center justify-center">
+						<div class="name-badge-container">
+							<a href="https://discord.com/users/1310328922574946396" target="_blank" rel="noopener">
+								<div id="sparkles-container" class="sparkles">
+									<h1 class="text-white text-5xl font-semibold my-1 text-glow">OmegaTM</h1>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="mt-7 flex justify-center h-10">
+						<h2 id="typed-text" class="text-white text-xl"></h2>
+					</div>
+					<a href="https://discord.com/users/1310328922574946396" target="_blank" rel="noopener">
+						<div class="mt-3 mb-4 flex justify-center">
+							<img src="https://discord.c99.nl/widget/theme-1/1310328922574946396.png" alt="banner" class="w-full h-auto" draggable="false">
+						</div>
+					</a>
+					<div id="tooltip-container">
+						<span id="discord-tool" class="fab fa-discord glow-white" data-tooltip="@omega" data-href="https://discordapp.com/users/1310328922574946396"></span>
+						<span id="github-tool" class="fab fa-github glow-white" data-tooltip="OmegaTM" data-href="https://github.com/realomegatm"></span>
+						<span id="telegram-tool" class="fab fa-telegram glow-white" data-tooltip="@omega" data-href="https://t.me/mrpresidentforklar"></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="relative flex justify-center mt-4 w-full">
+				<div class="button-container grid grid-cols-2 gap-4">
+					<a id="button-1" href="https://discord.gg/chams" target="_blank" rel="noopener"
+					   class="btn relative text-white font-semibold py-4 px-4 rounded flex justify-between items-center">
+						<div class="flex items-center">
+							<span class="bg-neutral-700 rounded p-2 inline-flex items-center mr-3">
+								<img src="assets/img/svg/discord.svg" alt="Discord" class="icon-container glow-discord" draggable="false">
+							</span>
+							<span class="btn-text">Discord</span>
+						</div>
+						<i class="fas fa-arrow-right text-white arrow"></i>
+					</a>
+
+					<a id="button-2" href="https://t.me/mrpresidentforklar" target="_blank" recl="noopener"
+					   class="btn relative text-white font-semibold py-4 px-4 rounded flex justify-between items-center">
+						<div class="flex items-center">
+							<span class="bg-neutral-700 rounded p-2 inline-flex items-center mr-3">
+								<img src="assets/img/svg/telegram.svg" alt="Telegram" class="icon-container glow-telegram" draggable="false">
+							</span>
+							<span class="btn-text">Telegram</span>
+						</div>
+						<i class="fas fa-arrow-right text-white arrow"></i>
+					</a>
+
+					<a id="button-3" href="https://chamscheats.com" target="_blank" rel="noopener"
+					   class="btn relative text-white font-semibold py-4 px-4 rounded flex justify-between items-center">
+						<div class="flex items-center">
+							<span class="bg-neutral-700 rounded p-2 inline-flex items-center mr-3">
+								<img style="border-radius: 50%" src="assets/img/rose.png" alt="OmegaTM" class="icon-container glow-omegatm" draggable="false">
+							</span>
+							<span class="btn-text">Shop</span>
+						</div>
+						<i class="fas fa-arrow-right text-white arrow"></i>
+					</a>
+
+					<a id="button-5" href="https://omegatm.wtf" target="_blank" rel="noopener"
+					   class="btn relative text-white font-semibold py-4 px-4 rounded flex justify-between items-center">
+						<div class="flex items-center">
+							<span class="bg-neutral-700 rounded p-2 inline-flex items-center mr-3">
+								<img src="assets/img/status.png" alt="Status" class="icon-container glow-status" draggable="false">
+							</span>
+							<span class="btn-text">Status</span>
+						</div>
+						<i class="fas fa-arrow-right text-white arrow"></i>
+					</a>
+				</div>
+			</div>
+
+			<div id="footer" class="text-white text-sm font-semibold text-glow">
+				<p>
+					&copy; <span id="current-year"></span>
+					<a href="https://omegatm.wtf">omegatm.wtf | Paige</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+	<script src="https://unpkg.com/@popperjs/core@2"></script>
+	<script src="assets/js/lib/particles.js"></script>
+	<script src="assets/js/lib/tippy.js"></script>
+	<script src="assets/js/lib/typed.js"></script>
+	<script src="assets/js/scripts.js"></script>
+	<script src="assets/js/index.js"></script>
+	<script src="assets/js/background.js"></script>
+</body>
+</html>
