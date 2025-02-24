@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const videoSources = [
         'https://files.catbox.moe/8an4ao.mp4' 
-        ];
+    ]; // Add semicolon here
 
     const randomIndex = Math.floor(Math.random() * videoSources.length);
     const selectedVideo = videoSources[randomIndex];
