@@ -25,7 +25,7 @@ $(document).ready(function () {
         });
 
         new Typed('#typed-text', {
-            strings: ['Full-Stack Developer', 'Ex Klar Management', 'Languages I know..', 'C++', 'GO-Lang', 'HTML/CSS', 'Python', 'JavaScript/TypeScript'],
+            strings: ['Full-Stack Developer', 'Ex Klar Management', 'Possibly DMA', 'Legend', 'Worst Closet Cheater', 'Professional Snake', 'High IQ', 'Cheating Since 2018'],
             typeSpeed: 100,
             startDelay: 3,
             backSpeed: 50,
