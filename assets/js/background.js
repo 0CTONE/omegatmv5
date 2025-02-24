@@ -1,10 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const videoElement = document.getElementById('background-video');
-    console.log('Loading random vid')
+    console.log('Loading video from URL');
 
     const videoSources = [
-        'assets/video/background.mp4' 
-    ];
+        'https://files.catbox.moe/8an4ao.mp4' 
 
     const randomIndex = Math.floor(Math.random() * videoSources.length);
     const selectedVideo = videoSources[randomIndex];
@@ -18,5 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
     sourceElement.setAttribute('type', 'video/mp4');
 
     videoElement.appendChild(sourceElement);
+
     videoElement.load();
 });
