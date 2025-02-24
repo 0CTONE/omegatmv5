@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const videoSources = [
         'assets/video/background.mp4' 
+        'assets/video/background2.mp4' 
     ];
 
     const randomIndex = Math.floor(Math.random() * videoSources.length);
